@@ -4,19 +4,34 @@
    Author's custom styles
    ========================================================================== */
 
+html,body {
+  padding: 0;
+  height: 100%;
+}
 
+.container-fluid, .row, .half {
+  height: 100%;
+}
 
+#half-nz {
+  background-color: #006;
+  text-align: right;
+  color: #EEE;
+  /*background-image: url("../img/new-zealand1.svg");*/
+}
+#half-se {
+  background-color: #FF0;
+  /*background-image: url("../img/sweden1.svg");*/
+}
+#half-nz a {
+  color: #EEE;
+  font-weight: bold;
+}
 
+ul {
+  padding: 0;
+  list-style-type: none;
+}
+ul li {
 
-
-
-
-
-
-
-
-
-
-
-
-
+}
